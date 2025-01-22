@@ -121,7 +121,7 @@ const Footer = () => {
       <div>
         <button
           onClick={toggleDarkMode}
-          className="flex items-center p-4 rounded-full bg-orange-500 hover:bg-orange-400 fixed lg:top-52 right-6 top-6"
+          className=" p-4 rounded-full bg-orange-500 hover:bg-orange-400 fixed lg:top-52 right-6 top-40"
         >
           {darkMode ? (
             <FaMoon size={25} className="text-black" />
