@@ -51,7 +51,7 @@ const Hero = () => {
           data-aos="zoom-in"
           className={`${
             darkMode ? "dark bg-gray-800" : "light bg-white"
-          } lg:w-[70%] w-full m-auto grid lg:grid-cols-4 grid-cols-2 grid-rows-3 lg:grid-rows-1 justify-center items-center gap-6 p-8 rounded-xl -mt-14`}
+          } lg:w-[70%] w-full m-auto grid lg:grid-cols-4 grid-cols-1 justify-center items-center gap-6 p-8 rounded-xl -mt-14`}
         >
           <div className="w-full">
             <h1 className="text-black font-semibold dark:text-white">
@@ -78,7 +78,7 @@ const Hero = () => {
               <option value="Option3">Commercial</option>
             </select>
           </div>
-          <div className="w-full lg:col-span-1 col-span-2">
+          <div className="w-full">
             <h1 className="text-black font-semibold dark:text-white">
               CATEGORY
             </h1>
@@ -95,7 +95,7 @@ const Hero = () => {
               <option value="Option3">Condos</option>
             </select>
           </div>
-          <div className="w-full lg:col-span-1 col-span-2">
+          <div className="w-full">
             <button className="bg-red-600 dark:bg-red-700 hover:bg-gray-700 hover:text-white dark:hover:bg-white dark:hover:text-black text-lg p-4 w-full text-white font-semibold cursor-pointer transform hover:scale-110 transition-transform duration-300 rounded-2xl">
               SUBMIT
             </button>
